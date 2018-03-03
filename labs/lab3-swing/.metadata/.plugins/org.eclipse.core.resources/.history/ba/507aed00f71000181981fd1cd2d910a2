@@ -1,0 +1,19 @@
+package dbtLab3;
+
+public class Performance {
+	private String movie;
+	private String showdate;
+	private String theater;
+	private String nbr_seats;
+	
+	Performance(String movie, String showdate, String theater, String nbr_seats){
+		this.movie = movie;
+		this.showdate = showdate;
+		this.theater = theater;
+		this.nbr_seats = nbr_seats;
+	}
+	public String getMovie(){return movie;};
+	public String getShowdate(){return showdate;};
+	public String getTheater(){return theater;};
+	public String getNbrSeats(){return nbr_seats;};
+}

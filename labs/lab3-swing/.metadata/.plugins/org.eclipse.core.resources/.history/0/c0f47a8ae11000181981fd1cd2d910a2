@@ -1,0 +1,15 @@
+package dbtLab3;
+
+public class Performance {
+	private String movie;
+	private String showdate;
+	private String theater;
+	private int nbr_seats;
+	
+	Performance(String movie, String showdate, String theater, int nbr_seats){
+		this.movie = movie;
+		this.showdate = showdate;
+		this.theater = theater;
+		this.nbr_seats = nbr_seats;
+	}
+}
